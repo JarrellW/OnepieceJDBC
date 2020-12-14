@@ -25,6 +25,7 @@ public class Pirate {
     public Pirate(){
 
     }
+
     public  Pirate(String lastName, String firstName){
         this.lastName = lastName;
         this.firstName = firstName;
@@ -35,6 +36,22 @@ public class Pirate {
         this.middleInitial = middleInitial;
         this.firstName = firstName;
 
+    }
+
+    public Pirate(int pirateId, String lastName, String middleInitial, String firstName, int age, String pirateName, String pirateRank, String pirateCrew, Long bounty, String devilFruit, String devilFruitAbility, String nonDevilFruitAbility, String status) {
+        this.pirateId = pirateId;
+        this.lastName = lastName;
+        this.middleInitial = middleInitial;
+        this.firstName = firstName;
+        this.age = age;
+        this.pirateName = pirateName;
+        this.pirateRank = pirateRank;
+        this.pirateCrew = pirateCrew;
+        this.bounty = bounty;
+        this.devilFruit = devilFruit;
+        this.devilFruitAbility = devilFruitAbility;
+        this.nonDevilFruitAbility = nonDevilFruitAbility;
+        this.status = status;
     }
 
     public int getPirateId() {
